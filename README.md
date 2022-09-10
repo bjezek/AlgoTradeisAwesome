@@ -49,10 +49,10 @@ from sklearn.metrics import classification_report
   ![image](https://user-images.githubusercontent.com/106267420/189504004-574bc6e7-020e-4a13-a452-9c0ddacbc0cc.png)
 
 
-# Original Algo before Tweaks
+# Original Baseline Algo
 ![image](https://user-images.githubusercontent.com/106267420/189502821-635f123f-6211-42cb-9b9c-fe9b5ad961e1.png)
 
-# New and Approved Algo after Tweaks
+# New and Approved Re-tooled Algo
 ![image](https://user-images.githubusercontent.com/106267420/189504020-38ded29d-ffd9-4444-b0a1-d9f6f6dac32e.png)
 
 
