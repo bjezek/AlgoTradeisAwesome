@@ -41,7 +41,10 @@ from sklearn.metrics import classification_report
   I would recommend using the LogisticRegression modle with the new parameters as it shows to outperform the baseline
   modle as well showing that is outperformed  the actual returns of the Emerging Markets returns over time. It is clear 
   to see that the more data the LogisticRegression modle has to train on the better it does compared to the actual returns as you
-  can see from the difference in the graphs below. 
+  can see from the difference in the graphs below. If you would have allowed the algo to trade and stopped it before January 2021
+  you would have outpeformed the Emerging Markets index for 36 months and could re-tool from their if you have a long strategy 
+  but a short strategy does not seem sufficent in outperforming the Actual returns unless some oversampling is done and backtest for 
+  analysis to see what short startegy would be sufficent. 
   
   ![image](https://user-images.githubusercontent.com/106267420/189504004-574bc6e7-020e-4a13-a452-9c0ddacbc0cc.png)
 
