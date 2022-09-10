@@ -1,4 +1,4 @@
-# AlgoTradeisAwesome
+# AlgoTradingIsAwesome
 
 # Libaries Used
  Imports
