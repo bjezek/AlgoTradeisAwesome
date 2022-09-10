@@ -27,10 +27,27 @@ from sklearn.metrics import classification_report
   overall on the data it self. 
 
 
+# Analysis of Re-tooled Algo
+  I left the trading Short and Long window the same but updated the trading period from 3 months to 36 months
+  and changed the time frame of the algo to recongnize price movement from 1 hour to 24 hours giving it a whole day to 
+  learn on price moving data instead of every hour which is too volatile or not volatile enough for me. The SVC Classifer did
+  not test at all on the testing data it was giving but came the same accuracy score of 55% while at this time the LogisticRegression
+  Classifer performed better at 56% and tested much better than the SVC() on the selling signals for data it's never seen before. 
+  
+  
+  # Final Analysis
+  I would recommend using the LogisticRegression modle with the new parameters as it shows to outperform the baseline
+  modle as well showing that is outperformed  the actual returns of the Emerging Markets returns over time. It is clear 
+  to see that the more data the LogisticRegression modle has to train on the better it does compared to the actual returns as you
+  can see from the difference in the graphs below. 
+  
+  ![image](https://user-images.githubusercontent.com/106267420/189504004-574bc6e7-020e-4a13-a452-9c0ddacbc0cc.png)
+
 
 # Original Algo before Tweaks
 ![image](https://user-images.githubusercontent.com/106267420/189502821-635f123f-6211-42cb-9b9c-fe9b5ad961e1.png)
 
 # New and Approved Algo after Tweaks
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/106267420/189504020-38ded29d-ffd9-4444-b0a1-d9f6f6dac32e.png)
+
 
