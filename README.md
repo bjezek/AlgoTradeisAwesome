@@ -32,7 +32,9 @@ from sklearn.metrics import classification_report
   and changed the time frame of the algo to recongnize price movement from 1 hour to 24 hours giving it a whole day to 
   learn on price moving data instead of every hour which is too volatile or not volatile enough for me. The SVC Classifer did
   not test at all on the testing data it was giving but came the same accuracy score of 55% while at this time the LogisticRegression
-  Classifer performed better at 56% and tested much better than the SVC() on the selling signals for data it's never seen before. 
+  Classifer performed better at 56% and tested much better than the SVC() on the selling signals for data it's never seen before.
+  updating the Window's had a small affect on the Algo increasing compared to the actual returns but not much of a differnce the biggies
+  change came from the start and end data for the Algo to train & test on improving the Algo significantly 
   
   
   # Final Analysis
